@@ -22,12 +22,7 @@ namespace GimbalSDK.iOS.Sample
         {
             // create a new window instance based on the screen size
             Window = new UIWindow(UIScreen.MainScreen.Bounds);
-
-            //just a nothing blue background so app will run
-            UIViewController c = new UIViewController();
-            c.View = new UIView(new CoreGraphics.CGRect(0, 50, 320, 430));
-            c.View.BackgroundColor = UIColor.Blue;
-            Window.RootViewController = c;
+			Window.RootViewController = new Table();
 
             // make the window visible
             Window.MakeKeyAndVisible();
