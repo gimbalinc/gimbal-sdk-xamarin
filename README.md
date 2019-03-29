@@ -1,8 +1,8 @@
-# gimbal-sdk-xamarin
-Xamarin bindings for the Gimbal SDKs
+# Gimbal-SDK-Xamarin
+This projects contains updated xamarin bindings for the Gimbal SDKs
 
 # GimbalSDK.Xamarin.iOS
-The iOS bindings.  Build on Mac in Xamarin Studio.  Should not need any additional configuration.
+The iOS bindings.  Build on Mac in Visual Studio.  Should not need any additional configuration.
 
 # GimbalSDK.Xamarin.Droid
 The Android bindings.  Build on appropriate OS.  Should not need anything additional other than local Android SDK stuff.
