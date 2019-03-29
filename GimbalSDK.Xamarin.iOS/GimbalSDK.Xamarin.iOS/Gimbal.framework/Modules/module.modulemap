@@ -1,0 +1,6 @@
+framework module Gimbal {
+  umbrella header "Gimbal.h"
+
+  export *
+  module * { export * }
+}

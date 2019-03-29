@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1044467484933",
+    "firebase_url": "https://xamarin-android-gimbal-sdk.firebaseio.com",
+    "project_id": "xamarin-android-gimbal-sdk",
+    "storage_bucket": "xamarin-android-gimbal-sdk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044467484933:android:88778a1eb82ea0b6",
+        "android_client_info": {
+          "package_name": "GimbalSDK.Xamarin.Android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044467484933-uoe1ljhr636b2jotl76a3qbfabl80od8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Ex5-yISGuYyNHGdmqGXNFgO_R9WpCDI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

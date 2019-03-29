@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+    <!--<attr path="/api/package[@name='com.gimbal.internal.cache']/class[@name='CacheEntry']/method[@name='CompareTo']" name="managedReturn">java.lang.Object</attr>-->
+    <attr path="/api/package[@name='com.gimbal.internal.cache']/class[@name='CacheEntry']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.gimbal.internal.cache.CacheEntry&lt;T&gt;']]" name="managedType">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.gimbal.location.established']/class[@name='Fix']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.gimbal.location.established.Fix']]" name="managedType">Java.Lang.Object</attr>
+</metadata>
